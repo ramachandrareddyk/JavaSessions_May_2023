@@ -132,15 +132,43 @@ public class ConditionalOperaters {
 			System.out.println("z is the Largest num");
 		}
 		
-		
+		System.out.println("-----------Assignment-------------");
 		//Assignment find max and min value
 		int c=45;
-		int d=1;
-		int e=89;
+		int d=0;
+		int e=8900;
 		int f=102;
 		int g=67;
-		int h=0;
+		int h=1000;
 		
+		if(c>d && c>e && c>f && c>g && c>h) {
+			System.out.println("c is the max number");
+		}else if(d>e && d>f && d>g && d>h) {
+			System.out.println("d is the max number");
+		}else if(e>f && e>g && e>h) {
+			System.out.println("e is the max number");
+		}else if(f>g && f>h) {
+			System.out.println("f is the max number");
+		}else if (g>h){
+			System.out.println("g is the max number");
+		}else {
+			System.out.println("h is the max number");
+		}
+		
+		
+		if(c<d && c<e && c<f && c<g && c<h) {
+			System.out.println("c is the max number");
+		}else if(d<e && d<f && d<g && d<h) {
+			System.out.println("d is the max number");
+		}else if(e<f && e<g && e<h) {
+			System.out.println("e is the max number");
+		}else if(f<g && f<h) {
+			System.out.println("f is the max number");
+		}else if (g<h){
+			System.out.println("g is the max number");
+		}else {
+			System.out.println("h is the max number");
+		}
 		
 		
 		
