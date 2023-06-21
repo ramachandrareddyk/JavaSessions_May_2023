@@ -52,7 +52,32 @@ public class Assignments {
 		System.out.println(x);//20
 		System.out.println(y);//10
 		
+		
+		System.out.println(" ------------Swaping two numbers-----------");
+		
+		int temp;
+		temp=x;
+		x=y;
+		y=temp;
+		
+		System.out.println(x);//20
+		System.out.println(y);//10
+		
+		System.out.println("-----------------");
+		x=x+y;//10+20=30
+		y=x-y;//30-20=10
+		x=x-y;//30-10=20
+		
+		System.out.println(x);//20
+		System.out.println(y);//10
+
 	}
+	
+	
+	
+	
+	
+	
 	
 	
 	
